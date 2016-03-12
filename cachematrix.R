@@ -4,9 +4,9 @@
 ## This code writes funcionts that are able to cache potentially time-consuming
 ## computations, in this case, returning the inverse of a matrix using solve().
 
-## Function that stores a list of functions to a given object. Allows user to
-## set and get to natrux to retrieve it's inverse, and also allows user to set
-## and get inversed matrix.
+## makeCacheMatrix() is a function that stores a list of functions to a given 
+## object. Object functions allows user to set and get a matrix and alsobe 
+## set and get inversed an matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
         i <- NULL
